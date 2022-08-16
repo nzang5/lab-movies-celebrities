@@ -1,0 +1,17 @@
+<h2>List of All Celebrities</h2>
+
+
+<div>
+  {{#each celebFromDB}}
+    <p>{{name}}</p>
+
+  {{else}}
+    <p>There are no celebrities yet!</p>
+  {{/each}}
+
+
+</div>
+
+<button>
+    <a href="/"> Back to Homepage</a>
+</button>
